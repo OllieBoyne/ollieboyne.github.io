@@ -508,6 +508,13 @@ main {
   word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
+:link:hover{cursor: pointer; }
+
+.text-link:hover{
+  color: var(--vegas-gold);
+  text-decoration: underline;
+}
+
 #project_img :link{
   all: unset;
 }
