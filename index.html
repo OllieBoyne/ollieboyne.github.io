@@ -1,23 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="social.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oliver Boyne</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/headshot.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
+<body>
 
-<!--<h1>Ollie Boyne</h1>-->
+  <!--
+    - #MAIN
+  -->
 
-[Under Construction]
+  <main>
 
-<!--<a href="https://uk.linkedin.com/in/ollie-boyne" class="fa fa-linkedin"></a>-->
-<!--<a href="https://github.com/OllieBoyne" class="fa fa-github"></a>-->
+    <!--
+      - #SIDEBAR
+    -->
 
-<!--<h2>About me</h2>-->
+    <aside class="sidebar" data-sidebar>
 
-<!--I am a PhD student at the University of Cambridge Department of Engineering. My research interests include 3D reconstruction and shape representation.-->
+      <div class="sidebar-info">
 
-<!--<h2>Publications and projects</h2>-->
+        <figure class="avatar-box">
+          <img src="assets/images/headshot.jpg" alt="Oliver Boyne" width="80">
+        </figure>
 
-<!--<h2>Skills</h2>-->
+        <div class="info-content">
+          <h1 class="name" title="Oliver Boyne">Oliver Boyne</h1>
 
-<!--<h2>Education</h2>-->
+          <p class="title">PhD Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ob312@cam.ac.uk" class="contact-link">ob312@cam.ac.uk</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Cambridge, UK</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a PhD student with the Machine Intelligence Lab at the
+            <a href="http://www.eng.cam.ac.uk">Department of Engineering, University of Cambridge</a>,
+            supervised by
+            <a href="http://mi.eng.cam.ac.uk/~cipolla/index.htm">Roberto Cipolla</a>.
+            My research interests include 3D reconstruction and shape representation.
+          </p>
+
+          <p>
+             My PhD is sponsored by <a href="https:snapfeet.io">Trya Srl</a>, a company looking to revolutionise the
+            digital shoe shopping experience. My current research is in the field of 3D shape reconstruction - specifically,
+            I am looking at methods of <b>recovering foot shape from images captured on a mobile phone.</b>
+          </p>
+
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PhD in Computer Vision</h4>
+              <h6 class="h6">Downing College, University of Cambridge</h6>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                PhD in investigating methods of 3D reconstruction of human feet from images.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MEng Mechanical Engineering</h4>
+              <h6 class="h6">Downing College, University of Cambridge</h6>
+
+              <span>2016 - 2020</span>
+
+              <p class="timeline-text">
+                Undergraduate degree, specialising in Mechanical Engineering.
+
+                <table class="timeline-text">
+                  <tr>
+                    <td>Part IIB</td>
+                    <td>Final year project</td>
+                    <td>Class I (+ best project award)</td>
+                  </tr>
+                  <tr>
+                    <td>Part IIB</td>
+                    <td>Mechanics</td>
+                    <td>Honours pass (COVID-19)</td>
+                  </tr>
+                  <tr>
+                    <td>Part IIA</td>
+                    <td>Mechanics & Thermofluids</td>
+                    <td>Class I (top 15%)</td>
+                  </tr>
+                  <tr>
+                    <td>Part IB</td>
+                    <td>General Engineering</td>
+                    <td>Class I (top 14%)</td>
+                  </tr>
+                  <tr>
+                    <td>Part IA</td>
+                    <td>General Engineering</td>
+                    <td>Class I (top 9%)</td>
+                  </tr>
+                </table>
+
+              </p>
+
+            </li>
+
+                        <li class="timeline-item">
+
+
+              <h4 class="h4 timeline-item-title">Secondary School</h4>
+              <h6 class="h6">Yavneh College, Borehamwood</h6>
+
+              <span>2009 - 2016</span>
+
+              <p class="timeline-text">
+                A-Levels - Maths, Further Maths, Physics (3 A*)
+                AS Levels - Additional Further Maths, Economics (2 A)
+                FSMQ - Additional Maths (A)
+                GCSEs - 10, including Maths, English (10 A*)
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="hammer-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Vision Consultant</h4>
+
+              <span>September 2020 - Present</span>
+
+              <p class="timeline-text">
+                Worked as part of a development team on cutting edge Augmented Reality (AR) and Computer Vision technologies,
+                in the foot reconstruction space. Work included:
+                <ul class="timeline-text">
+                  <li>• Developing an AR system for predicting the position and pose of feet from images, for real time shoe visualisation, on a mobile phone.</li>
+                  <li>• Developing a mobile system for estimating size and shape of feet from multiple images.</li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research assistant</h4>
+
+              <span>June - September 2020</span>
+
+              <p class="timeline-text">
+                Carried out research into the new field of non-linear parametric
+                3D models for articulated rigid bodies.
+                In particular, developing a new model to tackle the shape
+                variety seen in the animal kingdom.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Summer Student</h4>
+              <h5 class="h5 timeline-item-title">Cambridge Design Partnership</h5>
+
+              <span>July - September 2018</span>
+
+              <p class="timeline-text">
+                As part of a 12 week placement, I worked on 10+ projects,
+                with a variety of different tasks.
+                My roles included: lab testing; data analysis
+                and visualisation using specialist measurement
+                devices and Python; field testing of gas and pneumatic
+                air systems; patent scoping and industry analysis; and
+                communicating with material suppliers for various projects.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+<!--        <section class="skill">-->
+
+<!--          <h3 class="h3 skills-title">My skills</h3>-->
+
+<!--          <ul class="skills-list content-card">-->
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">Web design</h5>-->
+<!--                <data value="80">80%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 80%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">Graphic design</h5>-->
+<!--                <data value="70">70%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 70%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">Branding</h5>-->
+<!--                <data value="90">90%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 90%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">WordPress</h5>-->
+<!--                <data value="50">50%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 50%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+<!--          </ul>-->
+
+<!--        </section>-->
+<!---->
+      </article>
+
+
+      <!--
+        - # Research
+      -->
+
+      <article class="research" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Publications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Datasets</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Other</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Publications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Datasets</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Other</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <ul>
+
+
+<!--      FIND paper (experimental table)    -->
+          <li class="project-item publications" data-filter-item data-category="publications">
+
+              <table style="width: 100%;">
+                <tr>
+                  <td style="width:30%">
+                      <a href = "https://ollieboyne.github.io/FIND/" class="ignore-css">
+                            <img src="./assets/images/projects/find.png" style="width:100%">
+                      </a>
+                  </td>
+                  <td class="publication_details" style="text-align:center;vertical-align:middle">
+                    <table style="align:center;margin-left:auto;margin-right:auto;display:inline-block">
+                        <tr><td><h3 class="project-title">FIND: An Unsupervised Implicit 3D Model of Articulated Human Feet</h3></td></tr>
+                        <tr><td><h5 class="project-title">Oliver Boyne, James Charles, Roberto Cipolla</h5></td></tr>
+                        <tr><td><h5 class="project-title">BMVC 2022</h5></td></tr>
+                    </table>
+                  </td>
+                </tr>
+
+              </table>
+            </li>
+
+    <!--  FOOT3D  -->
+    <li class="project-item datasets" data-filter-item data-category="datasets">
+              <table style="width: 100%;">
+                <tr>
+                  <td style="width:30%">
+                      <a href = "https://github.com/OllieBoyne/Foot3D" class="ignore-css">
+                        <img src="./assets/images/projects/foot3d.png" style="width:100%">
+                      </a>
+                  </td>
+                  <td class="publication_details" style="text-align:center;vertical-align:middle">
+                    <table style="align:center;margin-left:auto;margin-right:auto;display:inline-block">
+                        <tr><td><h3 class="project-title">Foot3D: Dataset of scanned, posed feet</h3></td></tr>
+                        <tr><td><h5 class="project-title">Oliver Boyne, James Charles, Roberto Cipolla</h5></td></tr>
+                        <tr><td><h5 class="project-title">BMVC 2022</h5></td></tr>
+                    </table>
+                  </td>
+                </tr>
+                </a>
+              </table>
+
+            </li>
+
+  <!-- WLDO  -->
+    <li class="project-item publications" data-filter-item data-category="publications">
+              <table style="width: 100%;">
+                <tr>
+                  <td style="width:30%">
+                      <a href = "https://sites.google.com/view/wldo/home?pli=1" class="ignore-css">
+                        <img src="./assets/images/projects/wldo.png" style="width:100%">
+                      </a>
+                  </td>
+                  <td class="publication_details" style="text-align:center;vertical-align:middle">
+                    <table style="align:center;margin-left:auto;margin-right:auto;display:inline-block">
+                        <tr><td><h3 class="project-title">Who Left the Dogs Out? 3D Animal Reconstruction with Expectation Maximization in the Loop</h3></td></tr>
+                        <tr><td><h5 class="project-title">Benjamin Biggs, Oliver Boyne, James Charles, Andrew Fitzgibbon, Roberto Cipolla</h5></td></tr>
+                        <tr><td><h5 class="project-title">ECCV 2020</h5></td></tr>
+                    </table>
+                  </td>
+                </tr>
+                </a>
+              </table>
+
+            </li>
+
+  <!-- StanfordExtra  -->
+    <li class="project-item datasets" data-filter-item data-category="datasets">
+              <table style="width: 100%;">
+                <tr>
+                  <td style="width:30%">
+                      <a href = "https://github.com/benjiebob/StanfordExtra" class="ignore-css">
+                        <img src="./assets/images/projects/stanford_extra.png" style="width:100%">
+                      </a>
+                  </td>
+                  <td class="publication_details" style="text-align:center;vertical-align:middle">
+                    <table style="align:center;margin-left:auto;margin-right:auto;display:inline-block">
+                        <tr><td><h3 class="project-title">StanfordExtra: Labelled instances of dogs in the wild</h3></td></tr>
+                        <tr><td><h5 class="project-title">Benjamin Biggs, Oliver Boyne, James Charles, Andrew Fitzgibbon, Roberto Cipolla</h5></td></tr>
+                        <tr><td><h5 class="project-title">ECCV 2020</h5></td></tr>
+                    </table>
+                  </td>
+                </tr>
+                </a>
+              </table>
+
+            </li>
+
+
+    <!-- Dog Dynamics  -->
+    <li class="project-item other" data-filter-item data-category="other">
+              <table style="width: 100%;">
+                <tr>
+                  <td style="width:30%">
+                      <a href = "https://github.com/OllieBoyne/dog-dynamics" class="ignore-css">
+                        <img src="./assets/images/projects/canine_dynamics.png" style="width:100%">
+                      </a>
+                  </td>
+                  <td class="publication_details" style="text-align:center;vertical-align:middle">
+                    <table style="align:center;margin-left:auto;margin-right:auto;display:inline-block">
+                        <tr><td><h3 class="project-title">Estimation of Canine Dynamics from Monocular Video</h3></td></tr>
+                        <tr><td><h5 class="project-title">Oliver Boyne</h5></td></tr>
+                      <tr><td><h5 class="project-title">Master's Thesis -  Awarded Sir George Nelson prize for greatest distinction in Applied Mechanics</h5></td></tr>
+                    </table>
+                  </td>
+                </tr>
+                </a>
+              </table>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
