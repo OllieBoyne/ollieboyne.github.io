@@ -10,9 +10,11 @@
 
 <body>
 
-<div id="display"></div>
+<!--<div id="display"></div>-->
 
+<pre style="word-wrap: break-word; white-space: pre-wrap;" id='data'>-</pre>
 <script>
+
 
       function loadData() {
 
@@ -21,7 +23,8 @@
           xmlhttp.onreadystatechange = function () {
               if (xmlhttp.readyState == 4) {
                   // Create a new img element
-                window.location.replace("https://img.shields.io/badge/Downloads-" + xmlhttp.responseText + "-green.svg")
+                // window.location.replace("https://img.shields.io/badge/Downloads-" + xmlhttp.responseText + "-green.svg")
+                  document.getElementById('data').innerHTML = "{ \n \"subject\": \"Downloads\" \n \"color\": \"green\", \n \"status\": \"" + xmlhttp.responseText + "\" \n }"
 
               }
           };
@@ -30,7 +33,6 @@
       }
 
     loadData()
-
 </script>
 
 </body>
