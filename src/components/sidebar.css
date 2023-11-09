@@ -1,22 +1,69 @@
-/* CSS */
 .sidebar-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f5f5f5;
-  }
-  
-  .headshot {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-  }
-  
-  .contact-link {
-    color: #333;
-    text-decoration: none;
-    margin-bottom: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff; /* Brighter background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid #e1e1e1; /* Soft outline */
+  border-radius: var(--box-radius);
+  margin: 20px;
+  font-family: 'Helvetica Neue', sans-serif; /* Modern font */
+}
+
+.headshot {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #e1e1e1; /* Image outline */
+}
+
+.contact-link {
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: 300; /* Font weight for clean look */
+}
+
+.contact-link:hover {
+  color: #555; /* Hover effect */
+  text-decoration: underline;
+}
+
+/* Placeholder for icons */
+.icon-placeholder {
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+  margin-right: 10px; /* Space before the text */
+  display: inline-block; /* To align with text */
+}
+
+/* Content hierarchy */
+.phd-info {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.cv-link {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Add this class to the CV link element */
+.cv-link a {
+  color: #0066cc; /* CV link color for distinction */
+}
+
+/* Additional styles for the container */
+.sidebar-container::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #e1e1e1;
+  width: 80%; /* Line separator */
+  margin: 20px auto;
+}

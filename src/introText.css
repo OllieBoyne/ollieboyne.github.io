@@ -1,0 +1,20 @@
+.intro-text {
+    background-color: var(--box-bg-color);
+    border-radius: var(--box-radius);
+    box-shadow: 0 4px 8px var(--box-shadow-color);
+    padding: 20px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    color: var(--text-color-main);
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .intro-text:hover {
+    box-shadow: 0 6px 12px var(--box-shadow-hover-color);
+  }
+  
+  .intro-text p {
+    line-height: 1.6;
+    font-size: 1rem; /* Adjust font size as needed */
+  }
+  
