@@ -16,9 +16,20 @@
   margin: 0.5rem;
 }
 
+.icon.active {
+  /* Active styles, e.g., glow effect */
+  box-shadow: 0 0 20px rgba(251, 252, 246, 1.0); /* Example of a glow effect */
+  transform: scale(1.1); /* Slightly larger scale for active icon */
+}
+
 .icon:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.icon.active:hover {
+  box-shadow: 0 0 20px rgba(251, 252, 246, 1.0);
+  transform: scale(1.1);
 }
 
 .icon-image {
@@ -29,6 +40,7 @@
 
 .icon-text {
   color: #333;
-  font-size: 1rem; /* Adjust size as necessary */
+  font-size: 0.8rem;
+  font-weight: bold;
   text-align: center;
 }

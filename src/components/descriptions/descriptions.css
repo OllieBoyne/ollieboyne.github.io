@@ -6,4 +6,8 @@
     margin: 0 auto; /* Center the iframe */
     padding-top: 20px; /* Adds padding at the top */
   }
+
+p .cite-end {
+    margin-bottom: 20px
+}
   

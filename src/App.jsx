@@ -14,6 +14,7 @@ import './App.css'; // General App-wide styles
 
 const App = () => {
   const [currentIcon, setCurrentIcon] = useState(null);
+  
 
   // Single array of icons, each with a tag property
   const icons = [
@@ -27,7 +28,7 @@ const App = () => {
     { id: 6, name: "WLDO", imgSrc: "assets/work/wldo_1.png", description: <WLDODescription/>, link: "https://ollieboyne.com/wldo", tag: "Work" },
     // Personal icons
     { id: 7, name: "Rowing", imgSrc: "assets/personal/br.jpg", description: <RowingDescription/>, tag: "Personal" },
-    { id: 8, name: "Dodo", imgSrc: "assets/personal/dodo.png", description: <DodoDescription/>, link: "https://ollieboyne.itch.io/dodo-demo", tag: "Personal" },
+    { id: 8, name: "Dodo", imgSrc: "assets/personal/dodo.png", description: <DodoDescription/>, tag: "Personal" },
   ];
   
 
@@ -43,6 +44,7 @@ const App = () => {
               text={icon.name}
               imgSrc={icon.imgSrc}
               onHover={() => setCurrentIcon(icon)}
+              isActive={currentIcon && icon.id === currentIcon.id}
               // Add tag as a prop if you want to pass it to Icon component
             />
           ))}

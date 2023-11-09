@@ -1,10 +1,13 @@
 // FoundDescription.jsx
 import React from 'react';
+import './descriptions.css';
 
 export const FoundDescription = () => (
   <div>
-    <i>WACV 2024</i>
-    <p>Surface normal predction (trained from synthetic data), followed by 3D shape reconstruction fusing multiview normals and uncertainty.</p>
+    <p><i>FOUND: Foot Optimisation With Uncertain Normals For Surface Deformation Using Synthetic Data</i></p>
+    <p><i>Oliver Boyne, Gwangbin Bae, James Charles, Roberto Cipolla</i></p>
+    <p class="cite-end"><i>WACV 2024</i></p>
+    <p>Surface normal prediction (trained from synthetic data), followed by 3D shape reconstruction fusing multiview normals and uncertainty.</p>
     <img src="https://www.ollieboyne.com/FOUND/images/itw/sliders.gif"/>
   </div>
 );
@@ -18,7 +21,9 @@ export const SynFootDescription = () => (
 
 export const FindDescription = () => (
     <div>
-        <i>BMVC 2022</i>
+      <p><i>FIND: An Unsupervised Implicit 3D Model Of Articulated Human Feet</i></p>
+      <p><i>Oliver Boyne, James Charles, Roberto Cipolla</i></p>
+      <p class="cite-end"><i>BMVC 2022</i></p>
         <p>Building a generative model for 3D shape reconstruction.</p>
     </div>
     );

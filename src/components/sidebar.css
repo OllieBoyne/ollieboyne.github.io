@@ -49,15 +49,39 @@
 }
 
 .cv-link {
+  display: block; /* Make it a block to occupy its own line */
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 20px 0; /* Add more vertical space */
+  text-align: center; /* Center the text within the div */
 }
 
-/* Add this class to the CV link element */
 .cv-link a {
-  color: #0066cc; /* CV link color for distinction */
+  color: #ffffff; /* Change text color to white */
+  background-color: #0066cc; /* Use a solid color for the background */
+  padding: 10px 15px; /* Add padding to increase the clickable area */
+  border-radius: var(--box-radius); /* Use the same border-radius as in the root for consistency */
+  text-decoration: none; /* Remove the underline from the link */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  display: inline-block; /* Needed to apply padding and centering */
 }
+
+.cv-link a:hover, .cv-link a:focus {
+  background-color: #0056b3; /* Darker blue on hover for interaction feedback */
+  outline: none; /* Remove the outline on focus to maintain the styling */
+  text-decoration: none; /* Ensure no underline appears on hover */
+}
+
+/* Since .phd-info is used for text, it should not be used for the CV link */
+/* Update the class name for the location info to something more appropriate, such as .location-info */
+.location-info {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: var(--text-color-secondary); /* Less emphasis compared to the CV button */
+}
+
 
 /* Additional styles for the container */
 .sidebar-container::after {

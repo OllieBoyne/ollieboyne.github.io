@@ -11,7 +11,9 @@ export const RowingDescription = () => (
 
 export const DodoDescription = () => (
     <div>
-        <p>I have been producing a unique puzzle game, Dodo, with my brother. We've made it in Godot.</p>
-        <p>Check out the demo in the link below!</p>
+        <p>My brother and I have been using <b>Godot</b> to make a unique puzzle game - Dodo</p>
+        <p>Check out our demo below!</p>
+        <iframe frameborder="0" src="https://itch.io/embed/2320056" width="552" height="167"><a href="https://ollieboyne.itch.io/dodo-demo">Dodo [DEMO] by OllieBoyne</a></iframe>
+
     </div>
 );

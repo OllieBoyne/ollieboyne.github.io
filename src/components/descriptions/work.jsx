@@ -16,6 +16,9 @@ export const BlenderSynthDescription = () => (
 
 export const WLDODescription = () => (
     <div>
+        <p><i>Who Left The Dogs Out? 3D Animal Reconstruction With Expectation Maximization In The Loop</i></p>
+        <p><i>Benjamin Biggs, Oliver Boyne, James Charles, Andrew Fitzgibbon, Roberto Cipolla</i></p>
+        <p class="cite-end"><i>ECCV 2020</i></p>
         <p>This research paper submitted in ECCV 2020 showed an end-to-end method for reconstructing 3D dog models from images.</p>
         <p>We also released <b>StanfordExtra</b> as part of this, a large scale dataset of 2D dog annotations, which has over 1100 downloads.</p>
         
