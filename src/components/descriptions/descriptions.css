@@ -1,0 +1,9 @@
+.video-frame {
+    display: block;
+    width: 100%; /* Responsive width */
+    max-width: 560px; /* Maximum width */
+    height: 315px; /* Fixed height, adjust as necessary */
+    margin: 0 auto; /* Center the iframe */
+    padding-top: 20px; /* Adds padding at the top */
+  }
+  

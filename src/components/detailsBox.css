@@ -16,11 +16,21 @@
   padding: 20px;
   margin-top: 20px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  height: 600px;
+  height: 550px;
   width: 100%;
+  max-width: 100%;
   overflow: auto;
   word-wrap: break-word;
   white-space: normal;
+}
+
+.details-box img {
+  max-width: 50%;
+  width: 500px;
+  height: auto; 
+  display: block; 
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .details-box:hover {

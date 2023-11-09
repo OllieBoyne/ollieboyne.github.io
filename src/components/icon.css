@@ -22,7 +22,7 @@
 }
 
 .icon-image {
-  max-width: 80%; /* Adjust as necessary for your images */
+  width: 80%; /* Adjust as necessary for your images */
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 0.5rem;
 }

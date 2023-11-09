@@ -5,7 +5,7 @@ export const RowingDescription = () => (
         <p>I used to be a coxswain for Cambridge University Boat Club.</p>
         <p>I was <b>Men's President</b> of the club last year, in our clean sweep win over Oxford.</p>
         <p>I coxed Goldie, the men's reserve crew, between 2021 and 2023.</p>
-        <img src="assets/personal/br23-celebration-full.jpg" style={{width: "50%"}}></img>
+        <img src="assets/personal/br23-celebration-full.jpg"></img>
     </div>
 );
 

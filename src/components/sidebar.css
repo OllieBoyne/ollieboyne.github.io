@@ -9,6 +9,7 @@
   border-radius: var(--box-radius);
   margin: 20px;
   font-family: 'Helvetica Neue', sans-serif; /* Modern font */
+  height: 812px;
 }
 
 .headshot {
