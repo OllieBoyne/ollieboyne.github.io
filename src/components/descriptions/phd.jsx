@@ -24,7 +24,10 @@ export const FindDescription = () => (
       <p><i>FIND: An Unsupervised Implicit 3D Model Of Articulated Human Feet</i></p>
       <p><i>Oliver Boyne, James Charles, Roberto Cipolla</i></p>
       <p class="cite-end"><i>BMVC 2022</i></p>
-        <p>Building a generative model for 3D shape reconstruction.</p>
+      <p>Building a generative model for 3D shape reconstruction.</p>
+
+      <iframe className="video-frame" width="560" height="315" src="https://www.youtube.com/embed/ehp0z-u7zXg?si=FIjwbIXNUDP1vlyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
     </div>
     );
     

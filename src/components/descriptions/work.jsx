@@ -1,9 +1,20 @@
 import React from 'react';
 import './descriptions.css';
 
+export const TryaDescription = () => (
+    <div>
+        <p>I am a technical consultant for Trya - my PhD sponsor.</p>
+        <p>I provide computer vision expertise to Trya to develop their AR and foot reconstruction systems.</p>
+        <img src="assets/work/trya_splash.png"></img>
+    </div>
+);
+
+
 export const UMWDescription = () => (
     <div>
-        <p>I am a Founding Engineer at UnderMyWing - A teaching platform</p>
+        <p>I am a Founding Engineer at UnderMyWing - a teaching platform seeking to use AI to revolutionize the classrom experience.</p>
+        <p>I am working on using AI and Computer Vision tools to automate the entire student assessment experience.</p>
+        <p>My work includes automated question generation, OCR of handwritten work, and automated marking.</p>
     </div>
 );
 

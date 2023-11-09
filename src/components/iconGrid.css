@@ -1,7 +1,7 @@
 .icon-grid {
   display: grid;
   --icon-size: 100px;
-  --max-columns: 10;
+  --max-columns: 11;
   grid-template-columns: repeat(auto-fill, minmax(var(--icon-size), 1fr));
   max-width: calc(var(--icon-size) * var(--max-columns));
   grid-gap: 1rem;
