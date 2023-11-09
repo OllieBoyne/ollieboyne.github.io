@@ -1,0 +1,50 @@
+:root {
+  --box-bg-color: white;
+  --box-radius: 8px;
+  --box-shadow-color: rgba(0, 0, 0, 0.1);
+  --box-shadow-hover-color: rgba(0, 0, 0, 0.15);
+  --text-color-main: #333;
+  --text-color-secondary: #666;
+  --link-bg-color: #007bff;
+  --link-bg-color-hover: #0056b3; /* Darker blue on hover */
+}
+
+.details-box {
+  background-color: var(--box-bg-color);
+  border-radius: var(--box-radius);
+  box-shadow: 0 4px 8px var(--box-shadow-color);
+  padding: 20px;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.details-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px var(--box-shadow-hover-color);
+}
+
+.details-box h2 {
+  color: var(--text-color-main);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.details-box p {
+  color: var(--text-color-secondary);
+  line-height: 1.6;
+}
+
+.details-box a {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border-radius: 4px;
+  background-color: var(--link-bg-color);
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.details-box a:hover {
+  background-color: var(--link-bg-color-hover);
+}

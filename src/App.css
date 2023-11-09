@@ -1,0 +1,48 @@
+/* App.css */
+.app {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  display: flex;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light grey background */
+}
+
+.icon-grids-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+.icon-details {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #ffffff; /* White background for the details box */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.icon-details h3 {
+  color: #333; /* Dark grey color for headings */
+  margin-bottom: 8px;
+}
+
+.icon-details p {
+  color: #666; /* Lighter grey for paragraph text */
+  line-height: 1.6;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .icon-details {
+    margin-top: 10px;
+  }
+}

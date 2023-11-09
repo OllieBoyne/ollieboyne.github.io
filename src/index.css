@@ -1,0 +1,12 @@
+/* Global styles; called first */
+
+* {
+  margin: 0;  /* All elements start with no margins. */
+  padding: 0;  /* All elements start with no padding. */
+  box-sizing: border-box;  /* Width and height properties include content, padding, and border, but not the margin. */
+}
+
+html, body {
+  background-color: #ffffff;  /* Background color of html and body elements set to white. */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  /* Default font for html and body elements. */
+}

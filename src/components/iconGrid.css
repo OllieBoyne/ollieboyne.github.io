@@ -1,0 +1,17 @@
+.icon-grid {
+  display: grid;
+  --icon-size: 100px; /* Icon size */
+  --max-columns: 4; /* Maximum number of columns */
+  grid-template-columns: repeat(auto-fill, minmax(var(--icon-size), 1fr));
+  max-width: calc(var(--icon-size) * var(--max-columns)); /* Maximum width of the IconGrid */
+  grid-gap: 1rem;
+  margin: auto; /* Centers the grid if it's smaller than the maximum width */
+  justify-content: center; /* This centers the icons horizontally */
+}
+
+
+@media (max-width: 600px) {
+  .icon-grid {
+    --icon-size: 80px;
+  }
+}
