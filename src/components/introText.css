@@ -1,3 +1,9 @@
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+}
+
 .intro-text {
     background-color: var(--box-bg-color);
     border-radius: var(--box-radius);
@@ -7,6 +13,8 @@
     transition: box-shadow 0.3s ease-in-out;
     color: var(--text-color-main);
     font-family: 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100%
   }
   
   .intro-text:hover {
@@ -15,6 +23,18 @@
   
   .intro-text p {
     line-height: 1.6;
-    font-size: 1rem; /* Adjust font size as needed */
+    font-size: 1rem;
+  }
+
+  @media screen and (max-width: 1300px) {
+    .intro-text p {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .intro-text p {
+      font-size: 0.6rem;
+    }
   }
   

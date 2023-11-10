@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import Icon from './components/icon';
 import IconGrid from './components/iconGrid';
 import DetailsBox from './components/detailsBox';
-import SideBar from './components/sidebar';
 import IntroText from './components/introText';
 
 import { FoundDescription, SynFootDescription, FindDescription } from './components/descriptions/phd';
@@ -33,7 +32,6 @@ const App = () => {
   
   return (
     <div className="app">
-      <SideBar />
       <div className="content">
         <IntroText />
         <IconGrid>

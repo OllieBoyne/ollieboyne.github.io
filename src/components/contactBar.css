@@ -1,0 +1,151 @@
+.contactbar-container {
+  background-color: var(--box-bg-color);
+  border-radius: var(--box-radius);
+  box-shadow: 0 4px 8px var(--box-shadow-color);
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+  color: var(--text-color-main);
+  font-family: 'Helvetica Neue', sans-serif;
+  width: 30%;
+  height: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toprow-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: start; /* Start alignment horizontally */
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.headshot-name-icons-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
+.headshot-name-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.name-phd-location-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.headshot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-right: 1rem;
+}
+
+.headshot {
+  width: auto;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 0.25rem; /* Adjust as necessary */
+}
+
+.phd-info,
+.location-info {
+  font-size: 0.9rem; /* Adjust as necessary */
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.contact-icon-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* Adjust width as needed */
+  margin-top: 1rem;
+}
+
+.contact-icon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2x2 grid */
+  gap: 10px; /* Adjust gap as necessary */
+  /* No width specified here, it will be auto based on content */
+}
+
+.contact-icon {
+  font-size: 2rem; /* Adjust icon size as needed */
+  color: #333; /* Icon color */
+  display: flex;
+  justify-content: center; /* Center icon */
+  align-items: center; /* Center icon */
+  position: relative; /* For absolute positioning of text */
+  margin: 0; 
+}
+
+.contact-icon-overlay {
+  position: relative; /* For overlaying text on icon */
+}
+
+.contact-icon-text {
+  position: absolute; /* Position text over the icon */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for exact center */
+  font-size: 0.75rem; /* Adjust text size as needed */
+  color: white; /* Choose color that stands out on the icon */
+  font-weight: bold;
+  background-color: blue;
+  border-radius: 20%;
+}
+
+/* Adjust the .contact-icon a styling if necessary */
+.contact-icon a {
+  color: inherit; /* Inherits color from parent */
+  text-decoration: none;
+}
+
+/* Add hover effects or other styles for individual icons if needed */
+.linkedin-icon:hover,
+.email-icon:hover,
+.github-icon:hover,
+.cv-icon:hover {
+  /* hover styles */
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: calc(0.6 * 1rem); /* Adjust based on current size */
+  }
+
+  .phd-info,
+  .location-info {
+    font-size: calc(0.6 * 0.9rem); /* Example for specific elements */
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: calc(0.5 * 1rem); /* Adjust based on current size */
+  }
+
+  .phd-info,
+  .location-info {
+    font-size: calc(0.5 * 0.9rem); /* Example for specific elements */
+  }
+}
