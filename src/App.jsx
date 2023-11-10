@@ -12,10 +12,6 @@ import { RowingDescription, DodoDescription } from './components/descriptions/pe
 
 import './App.css'; // General App-wide styles
 
-const App = () => {
-  const [currentIcon, setCurrentIcon] = useState(null);
-  
-
   // Single array of icons, each with a tag property
   const icons = [
     // PhD icons
@@ -31,8 +27,10 @@ const App = () => {
     { id: 8, name: "Rowing", imgSrc: "assets/personal/br.jpg", description: <RowingDescription/>, tag: "Personal" },
     { id: 9, name: "Dodo", imgSrc: "assets/personal/dodo.png", description: <DodoDescription/>, tag: "Personal" },
   ];
-  
 
+const App = () => {
+  const [currentIcon, setCurrentIcon] = useState(icons[0]);
+  
   return (
     <div className="app">
       <SideBar />

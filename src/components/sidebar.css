@@ -10,11 +10,12 @@
   margin: 20px;
   font-family: 'Helvetica Neue', sans-serif; /* Modern font */
   height: 812px;
+  width: 15vw;
 }
 
 .headshot {
-  width: 100px;
-  height: 100px;
+  width: 85%;
+  aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;

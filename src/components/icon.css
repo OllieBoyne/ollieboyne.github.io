@@ -1,5 +1,6 @@
 /* Icon.css */
 
+
 .icon {
   display: flex;
   flex-direction: column;
@@ -11,7 +12,7 @@
   padding: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  height: var(--icon-size);
+  height: --icon-size;
   width: var(--icon-size);
   margin: 0.5rem;
 }
@@ -19,17 +20,18 @@
 .icon.active {
   /* Active styles, e.g., glow effect */
   box-shadow: 0 0 20px rgba(251, 252, 246, 1.0); /* Example of a glow effect */
-  transform: scale(1.1); /* Slightly larger scale for active icon */
+  transform: scale(var(--icon-hover-scale));
+  background: linear-gradient(145deg, #fd911d, #f2bf89);
 }
 
 .icon:hover {
-  transform: scale(1.05);
+  transform: scale(var(--icon-hover-scale));;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 .icon.active:hover {
   box-shadow: 0 0 20px rgba(251, 252, 246, 1.0);
-  transform: scale(1.1);
+  transform: scale(var(--icon-hover-scale));;
 }
 
 .icon-image {

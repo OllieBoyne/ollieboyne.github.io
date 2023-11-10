@@ -1,18 +1,30 @@
-.icon-grid {
-  display: grid;
+:root {
+  --icon-hover-scale: 1.1;
   --icon-size: 100px;
-  --max-columns: 11;
-  grid-template-columns: repeat(auto-fill, minmax(var(--icon-size), 1fr));
-  max-width: calc(var(--icon-size) * var(--max-columns));
-  grid-gap: 1rem;
-  margin: auto; 
-  justify-content: center;
-  padding-top: 15px;
 }
 
 
+
+.icon-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(var(--max-columns), var(--icon-size)); /* Fixed number of columns */
+  grid-gap: 1rem;
+  margin: auto; 
+  justify-content: start; /* Align items to the start */
+  padding: 15px; /* Adjusted for uniform padding */
+  overflow-x: auto; /* Horizontal scroll */
+  width: 100%; /* Full width */
+}
+
 @media (max-width: 600px) {
-  .icon-grid {
-    --icon-size: 80px;
+  :root {
+    --icon-size: 60px; /* Smaller icon size for smaller screens */
   }
+
+  .icon-grid {
+    --max-columns: auto; /* Allow columns to adjust automatically */
+    grid-gap: 0.5em;
+  }
+  
 }
