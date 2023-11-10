@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaEnvelope, FaFilePdf } from 'react-icons/fa'; // Importing icons
+import { FaLinkedin, FaGithub, FaEnvelope, FaFile } from 'react-icons/fa'; // Importing icons
 import './contactBar.css';
 
 const ContactBar = () => (
@@ -16,7 +16,7 @@ const ContactBar = () => (
       <div className="contact-icon-grid">
         <a className="contact-icon cv-icon" href="/assets/cv/cv_23.pdf" download="OBoyne_CV.pdf">
           <div className="contact-icon-overlay">
-            <FaFilePdf />
+            <FaFile />
             <span className="contact-icon-text">CV</span>
           </div>
         </a>

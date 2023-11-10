@@ -85,7 +85,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2x2 grid */
   gap: 10px; /* Adjust gap as necessary */
-  /* No width specified here, it will be auto based on content */
 }
 
 .contact-icon {
@@ -96,6 +95,8 @@
   align-items: center; /* Center icon */
   position: relative; /* For absolute positioning of text */
   margin: 0; 
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .contact-icon-overlay {
@@ -108,9 +109,10 @@
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust for exact center */
   font-size: 0.75rem; /* Adjust text size as needed */
-  color: white; /* Choose color that stands out on the icon */
+  color: rgb(0, 0, 0); /* Choose color that stands out on the icon */
   font-weight: bold;
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
+  padding:1px;
   border-radius: 20%;
 }
 
