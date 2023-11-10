@@ -123,12 +123,12 @@
 }
 
 /* Add hover effects or other styles for individual icons if needed */
-.linkedin-icon:hover,
+/* .linkedin-icon:hover,
 .email-icon:hover,
 .github-icon:hover,
 .cv-icon:hover {
   /* hover styles */
-}
+/* } */
 
 @media (max-width: 768px) {
   .name {
@@ -138,6 +138,10 @@
   .phd-info,
   .location-info {
     font-size: calc(0.6 * 0.9rem); /* Example for specific elements */
+  }
+
+  .name-phd-location-container {
+    display: none;
   }
 }
 
@@ -149,5 +153,9 @@
   .phd-info,
   .location-info {
     font-size: calc(0.5 * 0.9rem); /* Example for specific elements */
+  }
+
+  .name-phd-location-container {
+    display: none;
   }
 }

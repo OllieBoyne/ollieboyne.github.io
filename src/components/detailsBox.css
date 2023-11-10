@@ -25,8 +25,8 @@
 }
 
 .details-box img {
-  max-width: 50%;
-  width: 500px;
+  max-width: 90%;
+  width: 100%;
   height: auto; 
   display: block; 
   margin: 0 auto;
@@ -62,4 +62,10 @@
 
 .details-box a:hover {
   background-color: var(--link-bg-color-hover);
+}
+
+@media screen and (min-width: 1300px) {
+  .details-box img {
+    max-width: 70%;
+  }
 }
