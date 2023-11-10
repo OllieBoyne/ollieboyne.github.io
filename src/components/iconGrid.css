@@ -10,7 +10,7 @@
   grid-template-columns: repeat(var(--max-columns), var(--icon-size)); /* Fixed number of columns */
   grid-gap: 1rem;
   margin: auto; 
-  justify-content: start; /* Align items to the start */
+  justify-content: flex-start; /* Align items to the start */
   padding: 15px; /* Adjusted for uniform padding */
   overflow-x: auto; /* Horizontal scroll */
   width: 100%; /* Full width */

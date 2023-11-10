@@ -17,7 +17,7 @@
 .toprow-container {
   display: flex;
   align-items: center; /* Align items vertically */
-  justify-content: start; /* Start alignment horizontally */
+  justify-content: flex-start; /* Start alignment horizontally */
   width: 100%;
   margin-bottom: 1rem;
 }
