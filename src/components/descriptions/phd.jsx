@@ -26,7 +26,7 @@ export const FindDescription = () => (
       <p className="cite-end"><i>BMVC 2022</i></p>
       <p>Building a generative model for 3D shape reconstruction.</p>
 
-      <iframe title="FIND Video" className="video-frame" width="560" height="315" src="https://www.youtube.com/embed/ehp0z-u7zXg?si=FIjwbIXNUDP1vlyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe title="FIND Video" className="video-frame" width="560" height="315" src="https://www.youtube.com/embed/ehp0z-u7zXg?si=FIjwbIXNUDP1vlyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
     </div>
     );

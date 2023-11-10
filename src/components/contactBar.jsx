@@ -5,9 +5,7 @@ import './contactBar.css';
 const ContactBar = () => (
   <div className="contactbar-container">
     <div className="headshot-name-icons-container">
-      <div className="headshot-container">
-        <img className="headshot" src="assets/sidebar/headshot-2 icon.jpg" alt="Headshot" />
-      </div>
+      <img className="headshot" src="assets/sidebar/headshot-2 icon.jpg" alt="Headshot" />
       <div className="name-phd-location-container">
         <div className="name">Ollie Boyne</div>
         <div className="phd-info">PhD Student</div>

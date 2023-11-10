@@ -5,7 +5,7 @@ export const TryaDescription = () => (
     <div>
         <p>I am a technical consultant for Trya - my PhD sponsor.</p>
         <p>I provide computer vision expertise to Trya to develop their AR and foot reconstruction systems.</p>
-        <img style={{width: "60%"}} src="assets/work/trya_splash.png"></img>
+        <img style={{width: "60%"}} src="assets/work/trya_splash.png" alt="Snapfeet"></img>
     </div>
 );
 
@@ -21,7 +21,7 @@ export const UMWDescription = () => (
 export const BlenderSynthDescription = () => (
     <div>
         <p>BlenderSynth is a <b>synthetic rendering</b> python package, for large scale dataset creation.</p>
-        <img src="assets/work/bsyn_splash_1.png"/>
+        <img src="assets/work/bsyn_splash_1.png" alt="BlenderSynth homepage"/>
     </div>
 );
 
