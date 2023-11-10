@@ -13,7 +13,7 @@ export const DodoDescription = () => (
     <div>
         <p>My brother and I have been using <b>Godot</b> to make a unique puzzle game - Dodo</p>
         <p>Check out our demo below!</p>
-        <iframe class="embed-frame" frameborder="0" src="https://itch.io/embed/2320056" width="552" height="167"><a href="https://ollieboyne.itch.io/dodo-demo">Dodo [DEMO] by OllieBoyne</a></iframe>
+        <iframe title="Dodo demo" class="embed-frame" frameborder="0" src="https://itch.io/embed/2320056" width="552" height="167"><a href="https://ollieboyne.itch.io/dodo-demo">Dodo [DEMO] by OllieBoyne</a></iframe>
 
     </div>
 );
