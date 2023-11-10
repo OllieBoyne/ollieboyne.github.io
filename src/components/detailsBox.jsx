@@ -1,20 +1,18 @@
 import React from 'react';
 import './detailsBox.css';
 
-const DetailsBox = ({ currentIcon }) => {
+const DetailsBox = ({ icons, currentIcon }) => {
   return (
     <div className="details-box" aria-live="polite">
-      {currentIcon ? (
-        <>
-          <h2>{currentIcon.name}</h2>
-          <p>{currentIcon.description}</p>
-          {currentIcon.link && <a href={currentIcon.link} aria-label={`Learn more about ${currentIcon.name}`}>Learn More</a>}
-        </>
-      ) : (
-        <p>Hover over an icon for details.</p>
-      )}
+      {icons.map(icon => (
+        <div key={icon.id} style={{ display: currentIcon.id === icon.id ? 'block' : 'none' }}>
+          <h2>{icon.name}</h2>
+          <p>{icon.description}</p>
+          {icon.link && <a href={icon.link} aria-label={`Learn more about ${icon.name}`}>Learn More</a>}
+        </div>
+      ))}
     </div>
   );
-}
+};
 
 export default DetailsBox;

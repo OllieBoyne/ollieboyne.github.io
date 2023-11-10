@@ -46,7 +46,7 @@ const App = () => {
             />
           ))}
         </IconGrid>
-        <DetailsBox currentIcon={currentIcon} />
+        <DetailsBox icons={icons} currentIcon={currentIcon} />
       </div>
     </div>
   );

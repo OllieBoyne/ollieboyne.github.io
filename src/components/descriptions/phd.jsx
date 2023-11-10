@@ -8,14 +8,14 @@ export const FoundDescription = () => (
     <p><i>Oliver Boyne, Gwangbin Bae, James Charles, Roberto Cipolla</i></p>
     <p className="cite-end"><i>WACV 2024</i></p>
     <p>Surface normal prediction (trained from synthetic data), followed by 3D shape reconstruction fusing multiview normals and uncertainty.</p>
-    <img src="https://www.ollieboyne.com/FOUND/images/itw/sliders.gif"/>
+    <img src="https://www.ollieboyne.com/FOUND/images/itw/sliders.gif" alt="Surface normal predictions on in-the-wild foot images"/>
   </div>
 );
 
 export const SynFootDescription = () => (
   <div>
     <p><b>50,000</b> synthetic foot renders for reconstruction tasks.</p>
-    <img src="assets/research/SynFootSplash.gif"/>
+    <img src="assets/research/SynFootSplash.gif" alt="SynFoot synthetic dataset"/>
   </div>
 );
 
