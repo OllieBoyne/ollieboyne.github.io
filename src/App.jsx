@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 import Icon from './components/icon';
 import IconGrid from './components/iconGrid';
@@ -32,6 +33,19 @@ const App = () => {
   
   return (
     <div className="app">
+        <Helmet>
+          {/* Google Analytics */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYBYGNS3XF"></script>
+          <script>
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-KYBYGNS3XF');
+            `}
+          </script>
+        </Helmet>
+
       <div className="content">
         <IntroText />
         <IconGrid>
