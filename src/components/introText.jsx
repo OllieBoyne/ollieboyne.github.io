@@ -12,7 +12,7 @@ const IntroText = () => {
       <ContactBar />
 
       <div className="intro-text" ref={ref} style={{ fontSize }}>
-        <p>Hi! I'm Ollie, a PhD student in Computer Vision at the University of Cambridge</p>
+        <p>Hi! I'm Ollie, a PhD student in Computer Vision at the University of Cambridge.</p>
         <p>Click on the icons below to see what I've been working on!</p>
       </div>
     </div>

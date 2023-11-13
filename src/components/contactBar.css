@@ -25,6 +25,11 @@
   align-items: center;
   width: 100%;
   height: 100%;
+  justify-content: space-between;
+}
+
+.headshot-name-icons-container > * {
+  padding: 0 3%; /* ensures padding for even distribution */
 }
 
 
@@ -51,16 +56,21 @@
 .contact-icon-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2x2 grid */
-  gap: 5%; /* Adjust gap as necessary */
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10%;
+  align-items: stretch;
   justify-items: center;
+  position: relative;
+  margin-right: 5%;
 }
 
 .contact-icon {
-  font-size: 100%; /* Adjust icon size as needed */
+  font-size: 150%; /* Adjust icon size as needed */
   color: #333; /* Icon color */
   display: flex;
-  justify-content: center; /* Center icon */
-  align-items: center; /* Center icon */
+  width: 100%;
+  height: 100%;
+  vertical-align: 'middle';
 }
 
 .contact-icon-overlay {
