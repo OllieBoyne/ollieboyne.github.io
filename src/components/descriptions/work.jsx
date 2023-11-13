@@ -20,8 +20,9 @@ export const UMWDescription = () => (
 
 export const BlenderSynthDescription = () => (
     <div>
-        <p>BlenderSynth is a <b>synthetic rendering</b> Python package, for creating synthetic datasets at scale.</p>
-        <img src="assets/work/bsyn_splash_1.png" alt="BlenderSynth homepage"/>
+        <p>BlenderSynth is a software package for <b>rendering synthetic datasets at scale</b>.</p>
+        <p>It is released as a Python package, and provides advanced functionality within <a href="https://www.blender.org">Blender</a> for producing synthetic datasets.</p>
+        <a href="https://ollieboyne.com/BlenderSynth/"><img src="assets/work/bsyn_splash_1.png" alt="BlenderSynth homepage"/></a>
     </div>
 );
 

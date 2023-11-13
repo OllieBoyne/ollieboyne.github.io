@@ -6,7 +6,8 @@ export const FoundDescription = () => (
   <div>
     <p className="cite-title">FOUND: Foot Optimisation With Uncertain Normals For Surface Deformation Using Synthetic Data</p>
     <p className="cite-authors">Oliver Boyne, Gwangbin Bae, James Charles, Roberto Cipolla - WACV 2024</p>
-    <p>Surface normal prediction (trained from synthetic data), followed by 3D shape reconstruction fusing multiview normals and uncertainty.</p>
+    <p>We accurately predict <b>surface normals</b> on real images, training on <b>synthetic renders</b> of just <b>8 3D foot scans</b>.</p>
+    <p>We then predict <b>surface normals with uncertainty</b> on <b>multiview images</b>, and use them to <b>accurately reconstruct 3D models.</b></p>
     <img src="https://www.ollieboyne.com/FOUND/images/itw/sliders.gif" alt="Surface normal predictions on in-the-wild foot images"/>
   </div>
 );

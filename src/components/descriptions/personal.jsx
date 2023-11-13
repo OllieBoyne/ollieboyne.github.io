@@ -25,7 +25,7 @@ export const RowingDescription = () => (
 
 export const DodoDescription = () => (
     <div>
-        <p>My brother and are working on a unique puzzle game - Dodo.</p>
+        <p>My brother and I are working on a unique puzzle game - Dodo.</p>
         <p>We're making it using the open source game engine, <b>Godot</b>.</p>
         <p>Check out our demo below!</p>
         <iframe 
