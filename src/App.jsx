@@ -8,12 +8,13 @@ import IntroText from './components/introText';
 
 import { FoundDescription, SynFootDescription, FindDescription } from './components/descriptions/phd';
 import { TryaDescription, UMWDescription, BlenderSynthDescription, WLDODescription } from './components/descriptions/work';
-import { RowingDescription, DodoDescription } from './components/descriptions/personal';
+import { PersonalDescription, RowingDescription, DodoDescription } from './components/descriptions/personal';
 
 import './App.css'; // General App-wide styles
 
   // Single array of icons, each with a tag property
   const icons = [
+    {id: 0, name: "About Me", imgSrc: "assets/sidebar/headshot-2 icon.jpg", description: <PersonalDescription/>, tag: "Personal"},
     // PhD icons
     { id: 1, name: "FOUND", imgSrc: "assets/research/FOUND_x.png", description: <FoundDescription/>, link: "https://ollieboyne.com/FOUND", tag: "PhD" },
     { id: 2, name: "SynFoot", imgSrc: "assets/research/SynFoot_x.png", description: <SynFootDescription />, link: "https://ollieboyne.com/synfoot", tag: "PhD" },
@@ -54,7 +55,7 @@ const App = () => {
               key={icon.id}
               text={icon.name}
               imgSrc={icon.imgSrc}
-              onHover={() => setCurrentIcon(icon)}
+              onClick={() => setCurrentIcon(icon)}
               isActive={currentIcon && icon.id === currentIcon.id}
               // Add tag as a prop if you want to pass it to Icon component
             />

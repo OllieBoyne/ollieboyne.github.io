@@ -19,7 +19,7 @@
   /* Active styles, e.g., glow effect */
   box-shadow: 0 0 20px rgba(251, 252, 246, 1.0); /* Example of a glow effect */
   transform: scale(var(--icon-hover-scale));
-  background: linear-gradient(145deg, #fd911d, #f2bf89);
+  background: linear-gradient(145deg, #72db96, #65cb78);
 }
 
 .icon:hover {

@@ -15,7 +15,7 @@
   padding: 15px; /* Adjusted for uniform padding */
   overflow-x: auto; /* Horizontal scroll */
   width: 100%; /* Full width */
-  padding-bottom: 0px;
+  margin-bottom: 0px;
   padding-top: 40px;
 }
 
