@@ -34,8 +34,10 @@
 
 .icon-image {
   width: 80%;
-  aspect-ratio: 1/1;
+  object-fit: contain;
   margin-bottom: 0.5rem;
+  flex-grow: 1;
+  min-height: 80%;
 }
 
 .icon-text {
@@ -43,4 +45,5 @@
   font-size: var(--icon-font-size); 
   font-weight: bold;
   text-align: center;
+  flex-grow: 1;
 }

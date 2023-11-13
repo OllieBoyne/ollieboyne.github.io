@@ -10,16 +10,9 @@
   height: 100%;
   margin: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-}
-
-.toprow-container {
-  display: flex;
-  align-items: center; /* Align items vertically */
-  justify-content: flex-start; /* Start alignment horizontally */
-  width: 100%;
-  margin-bottom: 1rem;
+  margin-left: 0px;
 }
 
 .headshot-name-icons-container {
@@ -125,9 +118,9 @@
     font-size: 1vw; /* Adjust based on current size */
   }
 
-  .headshot {
+  /* .headshot {
     height: 2rem;
-  }
+  } */
 
   .contact-icon {
     font-size: 1.2rem; /* Smaller icons for smaller screens */

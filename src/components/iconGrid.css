@@ -21,7 +21,7 @@
 
 @media (max-width: 600px) {
   :root {
-    --icon-size: 60px; /* Smaller icon size for smaller screens */
+    --icon-size: 70px; /* Smaller icon size for smaller screens */
     --icon-font-size: 0.5rem;
   }
 
