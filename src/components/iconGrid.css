@@ -12,14 +12,12 @@
   grid-gap: 1rem;
   margin: auto; 
   justify-content: flex-start; /* Align items to the start */
-  padding: 15px; /* Adjusted for uniform padding */
   overflow-x: auto; /* Horizontal scroll */
   width: 100%; /* Full width */
-  margin-bottom: 0px;
-  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px), (max-height: 600px) {
   :root {
     --icon-size: 70px; /* Smaller icon size for smaller screens */
     --icon-font-size: 0.5rem;
