@@ -5,7 +5,7 @@
   transition: box-shadow 0.3s ease-in-out;
   color: var(--text-color-main);
   font-family: 'Helvetica Neue', sans-serif;
-  width: 20%;
+  width: 25%;
   height: 100%;
   padding: 0.75%;
   margin: 20px;
@@ -101,7 +101,7 @@
     font-size: 1vw; /* Adjust based on current size */
   }
 
-  .contact-icon-row {
+  .contactbar-container {
     flex-direction: column;
   }
 
@@ -112,6 +112,10 @@
 
   .name-phd-location-container {
     display: none;
+  }
+
+  .info-container{
+    height: 10%;
   }
 }
 
