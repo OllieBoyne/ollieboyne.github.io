@@ -51,7 +51,7 @@
   line-height: 1.6;
 }
 
-.details-box a {
+.details-box .link-box {
   display: inline-block;
   padding: 10px 15px;
   margin-top: 15px;

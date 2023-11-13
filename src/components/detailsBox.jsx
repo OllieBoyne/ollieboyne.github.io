@@ -8,7 +8,7 @@ const DetailsBox = ({ icons, currentIcon }) => {
         <div key={icon.id} style={{ display: currentIcon.id === icon.id ? 'block' : 'none' }}>
           <h2>{icon.name}</h2>
           <p>{icon.description}</p>
-          {icon.link && <a href={icon.link} aria-label={`Learn more about ${icon.name}`}>Learn More</a>}
+          {icon.link && <a href={icon.link} aria-label={`Learn more about ${icon.name}`} className="link-box">Learn More</a>}
         </div>
       ))}
     </div>

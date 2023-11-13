@@ -2,18 +2,22 @@
   background-color: var(--box-bg-color);
   border-radius: var(--box-radius);
   box-shadow: 0 4px 8px var(--box-shadow-color);
-  padding: 20px;
   transition: box-shadow 0.3s ease-in-out;
   color: var(--text-color-main);
   font-family: 'Helvetica Neue', sans-serif;
   width: 35%;
   height: 100%;
+  padding: 1%;
   margin: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 0px;
   overflow: hidden;
+}
+
+.contactbar-container:hover {
+  box-shadow: 0 6px 12px var(--box-shadow-hover-color);
 }
 
 .headshot-name-icons-container {
@@ -47,9 +51,8 @@
 .contact-icon-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2x2 grid */
-  gap: 10%; /* Adjust gap as necessary */
+  gap: 5%; /* Adjust gap as necessary */
   justify-items: center;
-  height: 100%;
 }
 
 .contact-icon {
@@ -58,7 +61,6 @@
   display: flex;
   justify-content: center; /* Center icon */
   align-items: center; /* Center icon */
-  width: 100%;
 }
 
 .contact-icon-overlay {

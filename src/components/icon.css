@@ -23,7 +23,7 @@
 }
 
 .icon:hover {
-  transform: scale(var(--icon-hover-scale));;
+  transform: scale(var(--icon-hover-scale));
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
