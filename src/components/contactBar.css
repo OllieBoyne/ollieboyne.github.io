@@ -1,5 +1,5 @@
 .contactbar-container {
-  background-color: var(--box-bg-color);
+  background: var(--box-bg-background);
   border-radius: var(--box-radius);
   box-shadow: 0 4px 8px var(--box-shadow-color);
   transition: box-shadow 0.3s ease-in-out;
@@ -44,7 +44,18 @@
 
 .name {
   font-weight: bold;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.15rem;
+  font-size: 1.2rem;
+}
+
+.phd-info {
+  font-size: 0.7rem;
+  margin-bottom: 0;
+}
+
+.location-info {
+  font-size: 0.6rem;
+  margin-bottom: 0rem;
 }
 
 .contact-icon-row {

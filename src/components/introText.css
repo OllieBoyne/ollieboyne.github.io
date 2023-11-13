@@ -1,12 +1,12 @@
 .intro-container {
   display: flex;
   flex-direction: row;
-  height: 10vh;
+  height: 11vh;
   margin-bottom: 30px;
 }
 
 .intro-text {
-    background-color: var(--box-bg-color);
+    background: var(--box-bg-background);
     border-radius: var(--box-radius);
     box-shadow: 0 4px 8px var(--box-shadow-color);
     padding: 1%;

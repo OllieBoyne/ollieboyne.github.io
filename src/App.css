@@ -1,13 +1,25 @@
+:root {
+  --box-bg-background: linear-gradient(145deg, #ffffff, #ffffff); 
+  --box-radius: 8px;
+  --box-shadow-color: rgba(0, 0, 0, 0.1);
+  --box-shadow-hover-color: rgba(0, 0, 0, 0.15);
+  --text-color-main: #333;
+  --text-color-secondary: #666;
+  --link-bg-color: #007bff;
+  --link-bg-color-hover: #0056b3; /* Darker blue on hover */
+}
+
 /* App.css */
 .app {
   font-family: 'Arial', sans-serif;
   text-align: center;
   display: flex;
   padding: 20px;
-  background-color: #f4f4f4; /* Light grey background */
+  background: linear-gradient(60deg, #efeff2, #e9e8f1); /* Light grey background */
   padding-top: 0px;
-  /* padding-left: 0px; */
+  height: 100vh;
 }
+
 
 .icon-grids-container {
   display: flex;
