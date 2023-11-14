@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './iconGrid.css';
 
-const IconGrid = ({ title, children }) => {
+const IconGrid = ({ children }) => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
@@ -30,8 +30,8 @@ const IconGrid = ({ title, children }) => {
   };
 
   return (
-    <div>
-      <h1>{title}</h1>
+    <div className="icon-grid-container">
+      <div className="padder"></div>
       <div
         ref={gridRef}
         className="icon-grid"
@@ -42,6 +42,7 @@ const IconGrid = ({ title, children }) => {
       >
         {children}
       </div>
+      <div className="padder"></div>
     </div>
   );
 };

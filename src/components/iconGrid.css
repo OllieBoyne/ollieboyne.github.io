@@ -4,6 +4,16 @@
   --icon-font-size: 0.75rem;
 }
 
+.icon-grid-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.padder {
+  flex-grow: 1;
+  height: 100%;
+}
 
 .icon-grid {
   display: grid;
@@ -13,7 +23,6 @@
   margin: auto; 
   justify-content: flex-start; /* Align items to the start */
   overflow-x: auto; /* Horizontal scroll */
-  width: 100%; /* Full width */
   padding-bottom: 10px;
 }
 
