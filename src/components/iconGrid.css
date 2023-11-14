@@ -1,7 +1,7 @@
 :root {
   --icon-hover-scale: 1.1;
   --icon-size: 90px;
-  --icon-font-size: 0.7rem;
+  --icon-font-size: 0.75rem;
 }
 
 
@@ -20,7 +20,7 @@
 @media (max-width: 600px), (max-height: 600px) {
   :root {
     --icon-size: 70px; /* Smaller icon size for smaller screens */
-    --icon-font-size: 0.5rem;
+    --icon-font-size: 0.7rem;
   }
 
   .icon-grid {

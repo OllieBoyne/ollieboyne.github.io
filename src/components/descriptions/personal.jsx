@@ -35,7 +35,7 @@ export const DodoDescription = () => (
             src="https://itch.io/embed/2320056" 
             width="552" 
             height="167"
-            style={{ maxWidth: '70%', width: '100%' }} // Adding inline style
+            style={{ width: '50%', height: "auto" }} // Adding inline style
         >
             <a href="https://ollieboyne.itch.io/dodo-demo">Dodo [DEMO] by OllieBoyne</a>
         </iframe>

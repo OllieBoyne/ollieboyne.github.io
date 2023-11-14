@@ -88,13 +88,9 @@
   text-decoration: none;
 }
 
-/* Add hover effects or other styles for individual icons if needed */
-/* .linkedin-icon:hover,
-.email-icon:hover,
-.github-icon:hover,
-.cv-icon:hover {
-  /* hover styles */
-/* } */
+.contact-icon:hover{
+  filter:opacity(30%);
+}
 
 @media (max-width: 768px) {
   .name-phd-location-container {

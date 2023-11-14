@@ -4,7 +4,7 @@
   box-shadow: 0 4px 8px var(--box-shadow-color);
   padding: 20px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  height: 550px;
+  height: 100%;
   width: 100%;
   max-width: 100%;
   overflow: auto;

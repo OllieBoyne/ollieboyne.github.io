@@ -7,17 +7,20 @@
   justify-items: center;
   background: linear-gradient(145deg, #f5f5f5, #e0e0e0);
   border-radius: 15px;
-  padding: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   height: var(--icon-size);
   width: var(--icon-size);
   margin: 0.5rem;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
 }
 
 .icon.active {
   /* Active styles, e.g., glow effect */
-  box-shadow: 0 0 20px rgba(251, 252, 246, 1.0); /* Example of a glow effect */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Example of a glow effect */
   transform: scale(var(--icon-hover-scale));
   background: linear-gradient(145deg, #72db96, #65cb78);
 }
@@ -28,7 +31,6 @@
 }
 
 .icon.active:hover {
-  box-shadow: 0 0 20px rgba(251, 252, 246, 1.0);
   transform: scale(var(--icon-hover-scale));;
 }
 

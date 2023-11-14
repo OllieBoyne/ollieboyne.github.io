@@ -23,7 +23,7 @@ const ContactBar = () => (
           <a className="contact-icon github-icon" href="https://github.com/OllieBoyne">
             <img src="assets/sidebar/icons/github.png" alt="GitHub Profile"/>
           </a>
-          <a className="contact-icon linkedin-icon" href="https://www.linkedin.com/in/OllieBoyne">
+          <a className="contact-icon linkedin-icon" href="https://www.linkedin.com/in/ollie-boyne/">
             <img src="assets/sidebar/icons/linkedin.png" alt="LinkedIn"/>
           </a>
         </div>
