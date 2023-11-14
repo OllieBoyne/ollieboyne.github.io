@@ -29,7 +29,7 @@
 @media (max-width: 600px), (max-height: 600px) {
   :root {
     --icon-size: 70px; /* Smaller icon size for smaller screens */
-    --icon-font-size: 0.6rem;
+    --icon-font-size: 0.55rem;
   }
 
   .icon-grid {
