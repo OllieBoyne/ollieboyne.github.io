@@ -122,7 +122,6 @@
 
 @media (max-width: 480px) {
   .contact-icon-row {
-    /* flex-direction: column; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
