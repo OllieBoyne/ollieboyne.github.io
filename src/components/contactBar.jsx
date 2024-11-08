@@ -14,7 +14,7 @@ const ContactBar = () => (
         </div>
       </div>
       <div className="contact-icon-row">
-          <a className="contact-icon cv-icon" href="/assets/cv/cv_23.pdf" download="OBoyne_CV.pdf">
+          <a className="contact-icon cv-icon" href="/assets/cv/cv_24.pdf" download="OBoyne_CV.pdf">
             <img src="assets/sidebar/icons/cv.png" alt="Download CV"/>
           </a>
           <a className="contact-icon email-icon" href="mailto:ollieboyne@gmail.com">

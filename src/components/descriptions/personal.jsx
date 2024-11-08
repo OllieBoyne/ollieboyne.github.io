@@ -2,7 +2,7 @@ import React from 'react';
 
 export const PersonalDescription = () => (
     <div>
-        <p>I'm currently in my <b>3rd year of my PhD</b> studying Computer Vision at the <b>University of Cambridge.</b>
+        <p>I'm currently in my <b>4th year of my PhD</b> studying Computer Vision at the <b>University of Cambridge.</b>
         </p>
         <p>My PhD, supervised by <a href="http://mi.eng.cam.ac.uk/~cipolla/index.htm">Prof. Roberto Cipolla</a>, is
             in <b>accurate foot reconstruction from mobile phone multiview images.</b></p>
@@ -20,9 +20,10 @@ export const PersonalDescription = () => (
 
 export const RowingDescription = () => (
     <div>
-        <p>I used to be a coxswain for Cambridge University Boat Club.</p>
-        <p>I was <b>Men's President</b> of the club last year, in our clean sweep win over Oxford.</p>
+        <p>I am a coxswain for Cambridge University Boat Club.</p>
+        <p>I was <b>Men's President</b> of the club in 2022-23, in our clean sweep win over Oxford.</p>
         <p>I coxed <b>Goldie</b>, the men's reserve crew, between 2021 and 2023.</p>
+        <p>I'm currently training to race in the 170th Men's Boat Race in April 2025.</p>
         <img src="assets/personal/br23-celebration-full.jpg" alt="Boat Race win 2023"></img>
     </div>
 );

@@ -29,3 +29,12 @@ export const WLDODescription = () => (
         {/* https://github.com/benjiebob/StanfordExtra */}
     </div>
 );
+
+export const GoogleDescription = () => (
+    <div>
+        <p>I worked at Google as a Student Researcher in 2024.</p>
+        <p>In the synthetic data team, I developed pipelines for large scale synthetic dataset generation for training
+downstream tasks for AR and VR vision applications.</p>
+        <p>I worked in <b>Blender</b> and <b>Python</b>.</p>
+    </div>
+);
