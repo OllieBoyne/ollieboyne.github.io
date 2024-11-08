@@ -12,7 +12,7 @@ export const PersonalDescription = () => (
         <p>I did my undergraduate degree in <b>Mechanical Engineering at Cambridge</b>, graduating in 2020.</p>
         <p>Have a look through my projects above! I work mostly in <b>Python</b>, but have experience in many other
             languages, including <b>Swift</b> for mobile development. </p>
-        <a href="/assets/cv/cv_23.pdf" download="OBoyne_CV.pdf" className="link-box">View my CV</a>
+        <a href="/assets/cv/cv_24.pdf" download="OBoyne_CV.pdf" className="link-box">View my CV</a>
     </div>
 
 );
