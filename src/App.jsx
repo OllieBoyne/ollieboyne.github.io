@@ -6,7 +6,7 @@ import IconGrid from './components/iconGrid';
 import DetailsBox from './components/detailsBox';
 import IntroText from './components/introText';
 
-import { FoundDescription, SynFootDescription, FindDescription } from './components/descriptions/phd';
+import { FocusDescription, FoundDescription, SynFootDescription, FindDescription } from './components/descriptions/phd';
 import { TryaDescription, BlenderSynthDescription, WLDODescription, GoogleDescription } from './components/descriptions/work';
 import { PersonalDescription, RowingDescription, DodoDescription } from './components/descriptions/personal';
 
@@ -16,6 +16,7 @@ import './App.css'; // General App-wide styles
   const icons = [
     {id: 0, name: "About Me", imgSrc: "assets/sidebar/headshot-2 icon.jpg", description: <PersonalDescription/>, tag: "Personal"},
     // PhD icons
+    {id: 11, name: "FOCUS", imgSrc: "assets/research/FOCUS.png", description: <FocusDescription/>, link: "https://ollieboyne.com/FOCUS", tag: "PhD"},
     { id: 1, name: "FOUND", imgSrc: "assets/research/FOUND_x.png", description: <FoundDescription/>, link: "https://ollieboyne.com/FOUND", tag: "PhD" },
     { id: 2, name: "SynFoot", imgSrc: "assets/research/SynFoot_x.png", description: <SynFootDescription />, link: "https://ollieboyne.com/synfoot", tag: "PhD" },
     { id: 3, name: "FIND", imgSrc: "assets/research/FIND_x.png", description: <FindDescription />, link: "https://ollieboyne.com/FIND", tag: "PhD" },

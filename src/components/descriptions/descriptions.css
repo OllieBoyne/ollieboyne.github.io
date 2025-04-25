@@ -21,4 +21,12 @@ p .cite-authors {
     margin-bottom: 1rem;
     font-size: 0.9rem;
     color: #666;
-}  
+}
+
+#videoPlayer {
+    display: block;
+    width: 100%; /* Responsive width */
+    max-width: 900px; /* Maximum width */
+    margin: 0 auto; /* Center the iframe */
+    padding-top: 20px; /* Adds padding at the top */
+}

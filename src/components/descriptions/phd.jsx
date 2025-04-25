@@ -2,6 +2,19 @@
 import React from 'react';
 import './descriptions.css';
 
+export const FocusDescription = () => (
+    <div>
+        <p className="cite-title">FOCUS - Multi-View Foot Reconstruction from Synthetically Trained Dense Correspondences</p>
+        <p className="cite-authors">Oliver Boyne, Roberto Cipolla - 3DV 2025</p>
+        <p>We learn to predict <b>dense correspondences</b> between images of real feet, training on <b>only synthetic data</b>.</p>
+        <p>We use these dense correspondences to efficiently reconstruct a foot model from <b>uncalibrated</b> images or video.</p>
+        <video id="videoPlayer" autoPlay loop muted playsInline>
+          <source src="assets/research/focus_splash.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+    </div>
+)
+
 export const FoundDescription = () => (
   <div>
     <p className="cite-title">FOUND: Foot Optimisation With Uncertain Normals For Surface Deformation Using Synthetic Data</p>
