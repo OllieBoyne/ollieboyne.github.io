@@ -23,8 +23,19 @@ export const RowingDescription = () => (
         <p>I am a coxswain for Cambridge University Boat Club.</p>
         <p>I was <b>Men's President</b> of the club in 2022-23, in our clean sweep win over Oxford.</p>
         <p>I coxed <b>Goldie</b>, the men's reserve crew, between 2021 and 2023.</p>
-        <p>I'm currently training to race in the 170th Men's Boat Race in April 2025.</p>
-        <img src="assets/personal/br23-celebration-full.jpg" alt="Boat Race win 2023"></img>
+        <p>I coxed the Men's Blue Boat to our victory in the 170th Men's Boat Race in 2025.</p>
+
+        <figure style={{ display:'flex', gap:'1rem', justifyContent: 'center', alignItems:'flex-start' }}>
+            <div>
+                <img src="assets/personal/br23-celebration-full.jpg" alt="Boat Race win 2023"/>
+                <figcaption><b>2023 victory</b></figcaption>
+            </div>
+            <div>
+                <img src="assets/personal/br25-celebration.jpg" alt="Boat Race win 2025"/>
+                <figcaption><b>2025 victory</b></figcaption>
+            </div>
+        </figure>
+
     </div>
 );
 
