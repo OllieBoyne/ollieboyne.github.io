@@ -1,42 +1,25 @@
 {
   "name": "ollieboyne.github.io",
-  "version": "1.0.0",
-  "main": "App.js",
-  "homepage": "http://ollieboyne.com",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://ollieboyne.com",
   "scripts": {
-    "start": "CI= NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "CI= NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^4.11.0",
-    "react-router-dom": "^6.18.0",
-    "react-scripts": "^3.0.1",
-    "use-fit-text": "^2.4.0"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "latest",
-    "gh-pages": "^6.0.0"
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.2.0",
+    "vite": "^6.0.0"
   }
 }
